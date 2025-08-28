@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 8000;
 
 app.get('/', (req, res) => {
     return res.json({
-        message: "Hey, Conternerized NodeJS Application is running"
+        message: "Hey, NodeJS Application is running"
     });
 });
 
