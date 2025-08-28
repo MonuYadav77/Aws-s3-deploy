@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 8000;
 
 app.get('/', (req, res) => {
     return res.json({
-        message: "Hey, NodeJS Application is running"
+        message: "Hey, NodeJS Application is running and deploying on AWS S3 Bucket",
     });
 });
 
